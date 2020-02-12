@@ -1,0 +1,68 @@
+html {
+  background: #018ded
+    url(https://image.freepik.com/free-vector/seamless-pattern-stone-brick-grey_172107-59.jpg);
+  background-size: contain;
+  font-family: "helvetica neue";
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 2px black, inset 0 0 0 2px rgb(255, 166, 0),
+    inset 0 0 0 30px #efefef, inset 0 0 0 50px rgb(215, 215, 215),
+    inset 0 0 0 70px rgb(190, 190, 190), inset 0 0 0 72px rgb(214, 139, 0),
+    inset 0 0 0 90px rgb(170, 170, 170), inset 0 0 0 110px rgb(150, 150, 150),
+    inset 0 0 0 130px rgb(140, 140, 140), inset 0 0 0 150px rgb(130, 130, 130),
+    inset 0 0 0 152px rgb(184, 119, 0), inset 0 0 0 170px rgb(119, 119, 119),
+    0 0 10px 10px rgba(0, 0, 0, 0.322), 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  background-color: black;
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.44, 2.41);
+}
+
+.second-hand {
+  height: 4px;
+  background-color: rgb(80, 80, 80);
+}
+
+.min-hand {
+  height: 5px;
+}
+
+.hour-hand {
+  height: 6px;
+  width: 30%;
+  left: 20%;
+}
