@@ -24,13 +24,13 @@ body {
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 5px 5px 0 2px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgb(255, 166, 0),
+  box-shadow: 0 0 0 2px rgb(0, 0, 0), inset 0 0 0 2px rgb(255, 166, 0),
     inset 0 0 0 30px #efefef, inset 0 0 0 50px rgb(215, 215, 215),
     inset 0 0 0 70px rgb(190, 190, 190), inset 0 0 0 72px rgb(214, 139, 0),
     inset 0 0 0 90px rgb(170, 170, 170), inset 0 0 0 110px rgb(150, 150, 150),
     inset 0 0 0 130px rgb(140, 140, 140), inset 0 0 0 150px rgb(130, 130, 130),
-    inset 0 0 0 152px rgb(184, 119, 0), inset 0 0 0 170px rgb(119, 119, 119); /*  0 0 10px 10px rgba(0, 0, 0, 0.322),
-    0 0 10px rgba(0, 0, 0, 0.2); */
+    inset 0 0 0 152px rgb(184, 119, 0), inset 0 0 0 170px rgb(119, 119, 119),
+    0 5px 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .clock-face {
